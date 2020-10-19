@@ -4,8 +4,31 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin: 1.5rem;
+}
+
+h2 {
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
