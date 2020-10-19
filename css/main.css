@@ -5,6 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: Overpass, sans-serif;
+  line-height: 1.5;
   background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
@@ -17,11 +18,27 @@ body {
 }
 
 section {
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 h2 {
+  font-size: 2rem;
   color: #fff;
+}
+
+.icon {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+}
+
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: #fff;
 }
 
 ul {
@@ -30,5 +47,37 @@ ul {
 }
 
 li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p {
+  margin: 0 0 1rem;
+  text-align: left;
+  color: rgba(255, 255, 255, .7);
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .7);
+  font-size: 1.125rem;
+  padding: 6vmin;
+  margin-bottom: 1rem;
+  border: .2rem solid rgba(255, 255, 255, .7);
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+  border: .2rem solid #fff;
 }
